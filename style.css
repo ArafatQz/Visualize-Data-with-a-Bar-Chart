@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#chart-container {
+    display: flex;
+    justify-content: center;
+    scale: 1.2;
+    height: 100vh;
+    margin-top: 100px;
+}
+svg{
+    margin: 100px;
+    scale: 1.2;
+    border: solid 1px #000;
+    border-radius: 5px;
+}
+#tooltip {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    font-family: Arial, sans-serif;
+}
+.bar:hover {
+    fill: #4CAF50;
+}
